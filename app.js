@@ -104,7 +104,7 @@ app.get("/posts/:postName", function(req, res){
   console.log("Server started on port 3000");
 });` is starting the server and listening for incoming requests on port 3000. When the server starts
 successfully, it will log the message "Server started on port 3000" to the console. */
-// let port = process.env.PORT
+let port = process.env.PORT
 
 if (port === null || port === "") {
   port = 3000;
